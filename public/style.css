@@ -1,0 +1,61 @@
+.navwrap {
+         margin: 0 auto; 
+         width: 310px;
+         height: 500px;
+         background: grey;
+         border: black;
+         border-style: solid;
+         border-width: 5px;
+         text-align: center;
+         background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+         background: rgba(54, 25, 25, .5);
+         padding: 5px;
+         margin-top: 10px;
+}
+
+/*.navdiv {
+         background: grey;
+         border: black;
+         border-style: solid;
+         border-width: 5px;
+        text-align: center;
+        opacity: 1;
+        
+}*/
+
+
+
+
+body {background:
+linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
+linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
+background-color:#e1ebbd;
+background-size: 128px 128px;}
+
+li{margin-top: 5px;
+  display: inline-block;
+  border: black;
+  border-style: solid;
+  border-width: 2px;
+  background: rgba(255, 255, 255, .5);
+  padding:5px;
+  }
+
+label {margin: 5px;}
+input {margin: 5px;}
+
+
+
+.formdiv {
+  width: 280px;
+  margin: 0 auto; 
+  border: black;
+  border-style: solid;
+  border-width: 2px;
+  /*background: rgba(77, 77, 77, .5);}*/
+  padding: 10px;
+  margin-top: 10px;}
+
+

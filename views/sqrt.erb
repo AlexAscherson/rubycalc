@@ -1,0 +1,18 @@
+
+<div class = 'formdiv'> 
+
+<form actions ="/bmi" method="get">
+<!-- say where its going to go, and what kind of thing to do.   -->
+  <label for="first">First Number</label> 
+  <input type="text" name="first" placeholder="enter the first number"></br>
+  <!-- name is v important, defines the key valuepair that the data will go to.
+  Its the key in the params hash -->
+  
+  <input type="submit">
+
+</form>
+
+<% if @result %>
+<p>The Square root of <%= @first %> is <%= @result %>   </p>
+<% end %>
+</div>

@@ -1,0 +1,23 @@
+
+<div class = 'formdiv'> 
+
+<form actions ="/trip_calc" method="get">
+<!-- say where its going to go, and what kind of thing to do.   -->
+  <label for="distance">Distance</label> 
+  <input type="text" name="distance" placeholder="enter the Distance"></br>
+  <!-- name is v important, defines the key valuepair that the data will go to.
+  Its the key in the params hash -->
+  <label for="mpg">Mpg</label>
+  <input type ="text" name="mpg" placeholder="Enter the Miles per gallon"></br>
+  <label for="fuelcost">Fuel Cost</label>
+  <input type ="text" name="fuelcost" placeholder="Fuel Cost"></br>
+  <label for="speed">Speed</label>
+  <input type ="text" name="speed" placeholder="Speed"></br>
+  <input type="submit">
+
+</form>
+
+<% if @result1 %>
+<p>  It will take you <%= @result1 %> hours at a cost of <%= @result2 %> </p>
+<% end %>
+</div>

@@ -1,0 +1,21 @@
+
+<div class = 'formdiv'> 
+
+<form actions ="/mort_calc" method="get">
+<!-- say where its going to go, and what kind of thing to do.   -->
+  <label for="principal">Principal</label> 
+  <input type="text" name="principal" placeholder="enter the Principal"></br>
+  <!-- name is v important, defines the key valuepair that the data will go to.
+  Its the key in the params hash -->
+  <label for="yearlyinterestrate">Yearly interest rate</label>
+  <input type ="text" name="yearlyinterestrate" placeholder="Enter the yearly interest rate"></br>
+  <label for="numberofpayments">Number of Payments</label>
+  <input type ="text" name="numberofpayments" placeholder="Number of payments"></br>
+  <input type="submit">
+
+</form>
+
+<% if @result %>
+<p>Your total is <%= @result %>   </p>
+<% end %>
+</div>

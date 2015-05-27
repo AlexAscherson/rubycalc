@@ -1,0 +1,22 @@
+
+<div class = 'formdiv'> 
+
+<form actions ="bmi" method="get">
+<!-- say where its going to go, and what kind of thing to do.   -->
+  <label for="measurement">Measurement</label> 
+  <input type="text" name="measurement" placeholder="(i)mperial or (m)etric"></br>
+
+  <label for="weight">Weight</label> 
+  <input type="text" name="weight" placeholder="Enter weight"></br>
+  <!-- name is v important, defines the key valuepair that the data will go to.
+  Its the key in the params hash -->
+  <label for="height">Height</label>
+  <input type ="text" name="height" placeholder="Enter height"></br>
+  <input type="submit">
+
+</form>
+
+<% if @result %>
+<p>Your BMI is <%= @result %>   </p>
+<% end %>
+</div>
